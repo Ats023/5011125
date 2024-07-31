@@ -1,0 +1,26 @@
+Linear Search:
+    Sequentially checks each element in a list until the target element is found or the list ends.
+
+    Time Complexity:
+        Best Case: O(1) (target is the first element)
+        Average Case: O(n)
+        Worst Case: O(n)
+
+    When to Use:
+    Suitable for small or unsorted data sets.
+    Simpler implementation when data is not sorted.
+
+Binary Search:
+    Divides a sorted list in half repeatedly to find the target element.
+
+    Time Complexity:
+        Best Case: O(1) (target is at the midpoint)
+        Average Case: O(log n)
+        Worst Case: O(log n)
+    When to Use:
+    Efficient for large, sorted data sets.
+    Requires pre-sorting or ordered data for effective use.
+
+Comparison
+    1. Linear Search is easier to implement and does not require sorted data but is less efficient for large data sets.
+    2. Binary Search is much faster with O(log n) complexity but requires the data to be sorted beforehand.

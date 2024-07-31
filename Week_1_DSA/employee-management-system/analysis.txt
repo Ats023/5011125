@@ -1,0 +1,28 @@
+Arrays in Memory and Their Advantages
+    Arrays are stored in contiguous memory locations. Each element is accessed via its index, which is calculated based on the starting memory address and the size of each element.
+    
+    Advantages:
+        Direct Access: Constant-time (O(1)) access to any element using its index.
+        Predictable Memory Usage: Fixed size, leading to efficient memory allocation.
+
+Time Complexity of Operations
+    Add:
+    Best Case: O(1) - Adding at the end if space is available.
+    Worst Case: O(n) - Adding requires resizing the array and copying elements.
+    Search:
+    Average and Worst Case: O(n) - Linear search through the array.
+    Traverse:
+    Time Complexity: O(n) - Visiting each element once.
+    Delete:
+    Average and Worst Case: O(n) - Searching for the element to delete and shifting elements.
+
+Limitations of Arrays:
+
+    Fixed Size: Once allocated, the size cannot be changed.
+    Inefficient Insertions/Deletions: Requires shifting elements, leading to O(n) time complexity.
+    Memory Waste: Can waste memory if the allocated array size is not fully used.
+
+When to Use:
+    Static Data: When the number of elements is known in advance and does not change.
+    Quick Access: When O(1) access time is critical.
+    Low Overhead: When memory efficiency and performance are more important than flexibility.

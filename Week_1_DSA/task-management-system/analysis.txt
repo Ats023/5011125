@@ -1,0 +1,31 @@
+Types of Linked Lists
+    Singly Linked List:
+    Each node contains data and a reference to the next node. Traversal is unidirectional.
+    
+    Add: O(1) at the head, O(n) at the end.
+    Search: O(n)
+    Delete: O(n) (find node first, then delete)
+
+    Doubly Linked List:
+    Each node contains data, a reference to the next node, and a reference to the previous node. Traversal is bidirectional.
+    
+    Add: O(1) at head or tail.
+    Search: O(n)
+    Delete: O(n) (find node first, then delete, but easier to remove due to two pointers)
+
+Time Complexity of Operations:
+
+Singly Linked List:
+    Add: O(1) (head), O(n) (end)
+    Search: O(n)
+    Delete: O(n)
+
+Doubly Linked List:
+    Add: O(1) (head or tail)
+    Search: O(n)
+    Delete: O(n)
+
+Advantages of Linked Lists Over Arrays
+    Dynamic Size: Linked lists can grow or shrink dynamically without the need for resizing.
+    Efficient Insertions/Deletions: Inserting or deleting elements does not require shifting other elements, unlike arrays.
+    Memory Utilization: No wasted memory as the list can be resized dynamically, unlike arrays that might reserve excess space.

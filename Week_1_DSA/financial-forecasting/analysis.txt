@@ -1,0 +1,12 @@
+Recursion: 
+    A method where a function calls itself with modified arguments to solve smaller instances of the same problem.
+    
+    Simplification: 
+        Simplifies complex problems by breaking them into smaller, manageable subproblems. Often used in scenarios like calculating factorials, Fibonacci numbers, or traversing trees.
+
+    Time Complexity:
+        O(n), where n is the number of periods. Each recursive call performs a constant amount of work, and there are n recursive calls.
+
+Optimization to Avoid Excessive Computation:
+    1. Memoization: Store results of previous computations to avoid redundant calculations. This technique caches intermediate results to improve efficiency.
+    2. Tail Recursion: Convert the recursive function to a tail-recursive form, where the recursive call is the last operation in the function. This can sometimes be optimized by compilers into iterative code.

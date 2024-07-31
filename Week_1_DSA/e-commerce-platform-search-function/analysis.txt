@@ -1,0 +1,32 @@
+Big O Notation:
+It is a mathematical notation used to describe the upper bound of an algorithm's runtime or space requirements in terms of the size of the input data. 
+
+Best, Average, and Worst-Case Scenarios for Search Operations:
+
+1. Linear Search:
+
+    Best Case: O(1) - The element is found at the first position.
+    Average Case: O(n) - The element is found somewhere in the middle or not at all, requiring a search through half the elements on average.
+    Worst Case: O(n) - The element is found at the last position or not found at all, requiring a search through all elements.
+
+2. Binary Search:
+
+    Best Case: O(1) - The element is found at the middle of the array on the first try.
+    Average Case: O(log n) - The element is found after several iterations, where each iteration halves the search space.
+    Worst Case: O(log n) - The element is found after searching through all possible halvings of the array.
+
+Time Complexity Comparison:
+
+1. Linear Search:
+    Time Complexity: O(n)
+    Each element is checked one by one until the target element is found or the array ends.
+
+2. Binary Search:
+    Time Complexity: O(log n)
+    The array is repeatedly divided in half, reducing the search space exponentially until the target element is found or the search space is empty.
+
+Choosing the Suitable Algorithm:
+
+    1. If data is mostly static: If the dataset is large and does not change frequently, binary search is more suitable due to its O(log n) efficiency.
+
+    2. If data is frequently updated: Linear search might be more practical if the dataset is small to moderate in size, or if sorting the array every time an insertion or deletion occurs is not feasible.
